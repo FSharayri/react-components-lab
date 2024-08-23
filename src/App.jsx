@@ -1,5 +1,6 @@
 // src/App.jsx
 import WeatherForecast from "./WeatherForecast";
+import './App.css'
 const weatherForecasts = [
   {
     day: 'Mon',

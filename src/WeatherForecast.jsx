@@ -1,4 +1,4 @@
-import './WeatherForecast.css'
+import '/src/WeatherForecast.css'
 import WeatherIcon from './WeatherIcon';
 import WeatherData from './WeatherData';
 
