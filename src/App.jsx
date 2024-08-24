@@ -47,8 +47,10 @@ const App = () => {
     <>
       <h1>Local Weather</h1>
       <section>
-        {weatherForecasts.map(foreCast=>
-          <WeatherForecast foreCast={foreCast} />
+        {weatherForecasts.map((foreCast, index)=>
+          
+          <WeatherForecast key={index} foreCast={foreCast} />
+          
         )}
       </section>
     </>
